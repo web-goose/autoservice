@@ -164,5 +164,16 @@ header {
 }
 
 .block1 .description{
-  
+  font-size: 34px;
+  color: #242424;
+  line-height: 45px;
+  font-family: 'garamond';
+}
+
+.block1 .description li{
+  color: #f2bb2b;
+}
+
+.block1 .description li span{
+  color: #242424;
 }

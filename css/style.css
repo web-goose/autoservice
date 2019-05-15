@@ -1,0 +1,168 @@
+@font-face {
+  src: '../fonts/futuramediumc.otf';
+  font-family: 'futuramediumc';
+}
+
+@font-face {
+  src: '../fonts/futurademic.otf';
+  font-family: 'futurademic';
+}
+
+@font-face {
+  src: '../fonts/garamond.ttf';
+  font-family: 'garamond';
+}
+
+html, body {
+  100%;
+}
+
+header {
+  height: 100vh;
+  background-image: url('../img/header/background.png');
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.container-fluid{
+  padding: 0 200px;
+}
+
+.header .row:nth-child(2) {
+  height: 60vh;
+}
+
+.header p {
+  font-size: 24px;
+  color: #fff;
+  font-family: 'futuramediumc';
+}
+
+.header .row:nth-child(2) .name {
+  font-family: 'futurademic';
+  font-size: 90px;
+  line-height: 91px;
+  color: #f2bb2b;
+}
+
+.header .callback {
+  /* padding: 30px 60px; */
+  background-color: #EBEBEC;
+  border-radius: 20px;
+  float: right;
+
+}
+
+.header .callback .title p:first-child {
+  font-family: 'futurademic';
+  font-size: 50px;
+  line-height: 50px;
+  color: #f2bb2b;
+}
+
+.header .callback .title p:last-child {
+  font-family: 'futuramediumc';
+  font-size: 34px;
+  line-height: 46px;
+  color: #000;
+}
+
+.header .callback .title {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-bottom: 1px solid #CFD0D0;
+  font-weight: bold;
+}
+
+.header .callback form {
+  padding: 40px;
+}
+
+.header .callback form input {
+  height: 35px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 10px;
+  border: 0;
+}
+
+.header .callback form input::placeholder {
+  font-family: 'garamond';
+  color: #ABABAB;
+  font-size: 22px;
+  line-height: 31px;
+}
+
+.header .callback form button {
+  height: 35px;
+  width: 150px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #f2bb2b;
+  font-family: 'futuramediumc';
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.c-f2{
+  color:#f2bb2b;
+}
+
+.header .garant p{
+  font-size: 56px;
+  font-family: 'futurademic'
+}
+
+.header .more a{
+  text-decoration: none;
+  font-size: 28px;
+  font-style: 'futuramediumc';
+  color: #fff;
+}
+
+.header .more a:hover{
+  animation-name: more;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes more {
+  0%{-webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);}
+  25%{-webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);}
+  50%{-webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);}
+  75%{-webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);}
+  100%{-webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);}
+}
+
+.block1 .title p:first-child{
+  color:#f2bb2b;
+  font-size: 90px;
+  font-family: 'futurademic';
+}
+
+.block1 .title p:last-child{
+  color:#000;
+  font-size: 50px;
+  font-family: 'garamond';
+  font-weight: bold;
+}
+
+.block1 .description{
+  
+}

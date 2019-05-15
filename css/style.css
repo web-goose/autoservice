@@ -227,11 +227,16 @@ header {
   text-decoration: none;
 }
 
+.block3{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .block3 .title p{
   font-family: 'futurademic';
   font-size: 90px;
   color: #f2bb2b;
-  padding: 60px 0;
+  padding-bottom: 30px;
 }
 
 .block3 .item p{
@@ -241,4 +246,52 @@ header {
 
 .block3 .item img{
   height: 100px;
+}
+
+.block4{
+  background-image: url('../img/block4/bg.png');
+  background-size: cover;
+  height: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.block4 p{
+  font-size: 66px;
+  color: #f2bb2b;
+  font-family: 'futuramediumc';
+}
+
+.block4 .button{
+  padding-top: 20px;
+}
+
+.block4 button{
+  padding: 5px 30px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #f2bb2b;
+  font-family: 'garamond';
+  font-size: 26px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.block4 form input {
+  margin-bottom: 20px;
+  height: 35px;
+  width: 400px;
+  border-radius: 30px;
+  padding: 10px;
+  border: 0;
+}
+
+.block4 form input::placeholder {
+  font-family: 'garamond';
+  color: #ABABAB;
+  font-size: 22px;
+  line-height: 31px;
 }

@@ -312,12 +312,14 @@ header {
   font-size: 32px;
   font-family: 'futurademic';
   color: #000;
+  padding: 10px;
 }
 
 .block5 .comment {
   font-size: 28px;
   color: #000;
   font-family: 'garamond';
+  padding: 10px;
 }
 
 .block5 .carousel {

@@ -1,7 +1,7 @@
 @media (max-width: 767px){
-  .container-fluid {
+  /* .container-fluid {
     padding: 0 40px;
-  }
+  } */
   body{
     font-size: 10px;
   }
@@ -13,6 +13,15 @@
  .block5 .carousel-control-next {
    display: none;
  }
+ .block4 button {
+ width: 200px;
+}
+.block4 form input {
+  width: 200px;
+}
+.header .row:nth-child(2) .name {
+  padding: 0 40px;
+}
 
 }
 @media (min-width: 768px) and(max-width: 991px){

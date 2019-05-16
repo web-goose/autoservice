@@ -32,8 +32,9 @@ header {
   background-size: cover;
   padding-top: 100px;
 }
+
 .header .row:nth-child(2) {
-  height: 60vh;
+height: auto;
 }
 .header p {
   font-size: 24px;
@@ -166,39 +167,41 @@ header {
 }
 
 /* End Header */
-@media screen and (max-device-width: 767px) {
+@media (max-width: 767px){
   .container-fluid {
     padding: 0 40px;
   }
-  .header .row:nth-child(2) {
-    height: 100vh;
-  }
+
+
 }
-@media screen and (min-device-width: 768px) {
+@media (min-width: 768px) and(max-width: 991px){
   .container-fluid {
     padding: 0 70px;
   }
-  .header .row:nth-child(2) {
-    height: 80vh;
-  }
+
 }
-@media screen and (min-device-width: 992px) {
+
+@media (min-width: 768px) and(max-width: 991px) and (orientation: landscape){
+  .container-fluid {
+    padding: 0 70px;
+  }
+
+
+}
+@media (min-width: 992px) and (max-width: 1199px){
   .container-fluid {
     padding: 0 133px;
   }
-  .header .row:nth-child(2) {
-    height: 80vh;
-  }
+
+
 }
-@media screen and (min-device-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1499){
   .container-fluid {
     padding: 0 233px;
   }
   .header .row:nth-child(2) {
     height: 60vh;
   }
-}
-@media screen and (min-device-width: 1200px) {
   .header .row:nth-child(2) .name {
     font-size: 66px;
     line-height: 80px;
@@ -207,13 +210,22 @@ header {
     height: 65vh;
   }
 }
-@media screen and (min-device-width: 1500px) {
+@media (min-width: 1500px) {
+  .container-fluid {
+    padding: 0 233px;
+  }
   .header .row:nth-child(2) .name {
     font-size: 90px;
     line-height: 91px;
   }
   .cor-img {
     height: 90vh;
+  }
+  .header .row:nth-child(2) {
+    height: 60vh;
+  }
+  header{
+    height: 100vh;
   }
 }
 

@@ -329,7 +329,7 @@ header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.block5 .carousel-control-prev {
+ .block5 .carousel-control-prev {
   position: absolute;
   left: -12%;
 }
@@ -356,6 +356,10 @@ header {
   background-color: #000;
   color: #fff;
   font-size: 1.625em;
+}
+
+.footer .info p{
+  font-size: 0.8em;
 }
 main .thanks {
   background-color: rgba(0, 0, 0, 0.555);

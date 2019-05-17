@@ -7,6 +7,10 @@
     font-size: 10px;
   }
 
+  .callback .title p{
+    line-height: normal !important;
+    font-size: 2em !important;
+  }
   .block5 .carousel-control-prev {
     display: none;
   }

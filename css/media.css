@@ -138,4 +138,8 @@
   .block4 form input {
     width: 400px;
   }
+
+  .block5 .img img{
+    width: 95%;
+  }
 }

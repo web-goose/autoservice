@@ -1,0 +1,141 @@
+@media (max-width: 767px) {
+  .container-fluid {
+    padding: 0 40px;
+  }
+
+  body {
+    font-size: 10px;
+  }
+
+  .callback .title p{
+    line-height: normal !important;
+    font-size: 2em !important;
+  }
+  .block5 .carousel-control-prev {
+    display: none;
+  }
+
+  .block5 .carousel-control-next {
+    display: none;
+  }
+
+  header .name {
+    font-size: 4em !important;
+    line-height: normal !important;
+  }
+
+  .block1 .title {
+    font-size: 0.6em !important;
+    line-height: normal !important;
+  }
+
+  .block2 .title {
+    font-size: 3em !important;
+    line-height: normal !important;
+  }
+
+  .block3 .title {
+    font-size: 0.6em !important;
+    line-height: normal !important;
+  }
+
+  .container-fluid.block4 {
+    padding: 0 20px;
+  }
+  .block4 button {
+    font-size: 1.5em;
+  }
+
+  .block4 input {
+    font-size: 1em;
+  }
+
+  .block4 .title {
+    font-size: 3em !important;
+    line-height: normal !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid {
+    padding: 0 70px;
+  }
+
+  .block5 .carousel-control-prev {
+    display: none;
+  }
+
+  .block5 .carousel-control-next {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and(max-width: 991px) and (orientation: landscape) {
+  .container-fluid {
+    padding: 0 70px;
+  }
+
+  .block5 .carousel-control-prev {
+    display: none;
+  }
+
+  .block5 .carousel-control-next {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container-fluid {
+    padding: 0 133px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499) {
+  .container-fluid {
+    padding: 0 233px;
+  }
+
+  .header .row:nth-child(2) {
+    height: 60vh;
+  }
+
+  .header .row:nth-child(2) .name {
+    font-size: 66px;
+    line-height: 80px;
+  }
+
+  .cor-img {
+    height: 65vh;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    padding: 0 233px;
+  }
+
+  .header .row:nth-child(2) .name {
+    font-size: 90px;
+    line-height: 91px;
+  }
+
+  .cor-img {
+    height: 90vh;
+  }
+
+  .header .row:nth-child(2) {
+    height: 55vh;
+  }
+
+  header {
+    height: 100vh;
+  }
+
+  .block4 {
+    height: auto;
+  }
+
+  .block4 form input {
+    width: 400px;
+  }
+}

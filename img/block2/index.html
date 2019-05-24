@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>АвтоСервис</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid header">
+      <div class="row">
+        <div class="col-sm-4 col-12 text-center text-sm-left">
+          <div class="logo"><img src="img/header/logo.png" alt="Logo"></div>
+        </div>
+        <div class="col-sm-8 col-12 text-center text-sm-right">
+          <div class="contact">
+            <p><i class="fas fa-map-marker-alt"></i> 129336, г. Москва, ул. Стартовая 18Б</p>
+            <p><i class="fas fa-phone"></i> + 7 (495) 971-00-66</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-xl-6 col-12 d-flex justify-content-xl-start justify-content-center">
+          <p class="align-self-center name">Автосервис<br />Шевроле<br> в Медведково</p>
+        </div>
+        <div class="col-lg-12 col-xl-6 col-12 d-flex justify-content-xl-end justify-content-center">
+          <div class="callback align-self-center text-center">
+            <div class="title">
+              <p>Узнай стоимость</p>
+              <p>работ и запчастей сейчас!</p>
+            </div>
+            <form class="text-center">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Имя" required>
+              </div>
+              <div class="form-group">
+                <input type="text" id="phone" placeholder="Номер телефона" required>
+              </div>
+              <div class="form-group">
+                <button type="submit" onclick="PostSend('name', 'phone');">Узнать</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row garant">
+        <div class="col-12 text-center">
+          <p>Гарантия на работы <span class="c-f2">2 года</span></p>
+          <div class="more">
+            <a class="d-block" id="more" href="#block1">Подробнее<br /><img src="img/header/arrow_down.png"
+                alt="Стрелка вниз"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-fluid block1" id="block1">
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2 title text-center">
+          <p>У вас Шевроле?</p>
+          <p>Отлично, мы обслуживаем и ремонтируем
+            автомобили Шевроле!</p>
+        </div>
+        <div class="col-12 col-xl-6 text-center col-lg-12">
+          <img src="img/block1/remont.png" alt="Ремонт" class="cor-img">
+        </div>
+        <div class="col-12 col-xl-6 col-lg-12 description p-0">
+          <p>Сервисный центр Chevrolet - это спектр услуг по ремонту
+            и обслуживанию автомобилей Шевроле в Москве.</p>
+          <p>У нас 20 лет успешной работы с автомобилями Chevrolet.
+            Наш сервис Шевроле это:</p>
+          <ul>
+            <li><span>Дилерский перечень инструментов и диагностических приборов.</span></li>
+            <li><span>Сотрудники, с еженедельным обучением и повышением
+                квалификации на базе GM.</span></li>
+            <li><span>Собственный склад оригинальных расходных материалов
+                и запасных частей Шевроле.</span></li>
+            <li><span>Итальянская покрасочная камера, одобренная заводом
+                изготовителем GM.</span></li>
+            <li><span>Техническая литература, обеспечивающая сохранение правил
+                ремонта и обслуживания автомобилей Шевроле.</span></li>
+          </ul>
+          <p>Мы обеспечим Вам уверенность в эксплуатации
+            и обслуживании автомобиля Шевроле, и сохраним заводскую
+            гарантию на весь срок эксплуатации автомобиля.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid block2">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="title">Отвечаем за качество деньгами</p>
+          <p>Выполним ремонт Шевроле <span class="c-f2 font-weight-bold">БЕСПЛАТНО</span>, если Вам не вернули старые
+            детали</p>
+          <p><a href="#">запишись сейчас</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid block3">
+      <div class="row text-center">
+        <div class="col-12 title">
+          <p>Вы получите...</p>
+        </div>
+        <div class="row text-center">
+          <div class="col-lg-4 col-md-12 col-12 col-sm-12 item"><img src="img/block3/tools.png" alt="tools">
+            <p>Ремонт по всем стандартам
+              Chevrolet и GM</p>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12 col-sm-12 item"><img src="img/block3/reduction.png" alt="tools">
+            <p>Стоимость работ в 2 раза
+              ниже диллерских</p>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12 col-sm-12 item"><img src="img/block3/checklist.png" alt="tools">
+            <p>Сервисную книжку с учетом
+              всех работ и деталей</p>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center">
+          <div class="col-lg-4 col-md-12 col-12 col-sm-12 item"><img src="img/block3/question.png" alt="tools">
+            <p>Консультацию по эксплуатации
+              и срокам ТО</p>
+          </div>
+          <div class="col-lg-4 col-md-12 col-12 col-sm-12 item"><img src="img/block3/recommended.png" alt="tools">
+            <p>Автосервис, которому можно
+              доверить свою машину</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid block4">
+      <div class="row">
+        <div class="col-8 offset-2 text-center">
+          <p class="title">Без очередей и точно в срок</p>
+          <form action="thanks.html">
+            <input type="text" id="name1" placeholder="Имя" required>
+            <input type="text" id="phone1" placeholder="Номер телефона" required>
+            <div class="button"><button type="submit" onclick="PostSend('name1', 'phone1');">Записаться</button></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid block5">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>Отзывы</p>
+        </div>
+        <div class="col-xl-11 col-12 px-0 mx-auto">
+          <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-xl-5 text-center">
+                    <img src="img/block5/comment1.png" alt="Комментарий" class="" height="350px">
+                  </div>
+                  <div class="col-12 col-xl-7">
+                    <div class="name">Петров Александр</div>
+                    <div class="comment"> Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.
+                      Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-xl-5 text-center">
+                    <img src="img/block5/comment2.jpg" alt="Комментарий" class="" height="350px">
+                  </div>
+                  <div class="col-12 col-xl-7">
+                    <div class="name">Петров Александр</div>
+                    <div class="comment"> Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.
+                      Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-xl-5 text-center">
+                    <img src="img/block5/comment3.jpg" alt="Комментарий" class="" height="350px">
+                  </div>
+                  <div class="col-12 col-xl-7">
+                    <div class="name">Петров Александр</div>
+                    <div class="comment"> Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.
+                      Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-xl-5 text-center">
+                    <img src="img/block5/comment4.jpg" alt="Комментарий" class="" height="350px">
+                  </div>
+                  <div class="col-12 col-xl-7">
+                    <div class="name">Петров Александр</div>
+                    <div class="comment"> Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.
+                      Красивый сервис, очень понравилось обслуживание.
+                      Все работники были приветливыми и ответили на все
+                      интересующие меня вопросы.
+                      Диагностика была сделана очень быстро, ценник за
+                      услуги просто сказка! Всем советую.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+              <img src="img/block5/arrow_left.png" alt="Стрелка">
+              <span class="sr-only">Назад</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+              <img src="img/block5/arrow_right.png" alt="Стрелка">
+              <span class="sr-only">Вперед</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-fluid footer pt-xl-0">
+      <div class="row d-flex align-items-center text-center">
+        <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12">
+          <p>129336, г. Москва,<br />
+            ул. Стартовая 18Б<br />
+            autoservis-svao@mail.ru</p>
+        </div>
+        <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12">
+          <p><strong>Телефоны сервиса:</strong><br />
+            + 7 (495) 971-00-66<br />
+            + 7 (926) 710-00-36</p>
+        </div>
+        <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12">
+          <p><strong>Автозапчасти Шевроле:</strong><br />
+            + 7 (495) 104-44-02<br />
+            + 7 (968) 917-12-41</p>
+        </div>
+        <div class="col-xl-3 col-md-6 col-lg-6 col-sm-12 info text-center">
+          <p style="color: #f2bb2b"><strong>© 2001-2019 Автосервис “Север”<br />
+              в СВАО.</strong><br />
+            Мы обслуживаем и ремонтируем<br />
+            автомобили GM группы уже<br />
+            более 15-ти лет.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

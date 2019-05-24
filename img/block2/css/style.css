@@ -1,0 +1,385 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'futuramediumc';
+  src: url('../fonts/futuramediumc.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'futurademic';
+  src: url('../fonts/futurademic.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'garamond';
+  src: url('../fonts/garamond.ttf') format("opentype");
+}
+
+html, body {
+  height: 100%;
+  font-size: 16px;
+}
+
+/* End Fonts */
+
+
+/* Header */
+
+header {
+  height: auto;
+  background-image: url('../img/header/background.png');
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+}
+
+.header p {
+  font-size: 1.5em;
+  color: #fff;
+  font-family: 'futuramediumc';
+}
+.header .row:nth-child(2) .name {
+  font-family: 'futurademic';
+  font-size: 5.625em;
+  line-height: 91px;
+  color: #f2bb2b;
+}
+
+.header .callback {
+  background-color: #EBEBEC;
+  border-radius: 20px;
+  float: right;
+}
+
+.header .callback .title p:first-child {
+  font-family: 'futurademic';
+  font-size: 3.125em;
+  line-height: 50px;
+  color: #f2bb2b;
+}
+
+.header .callback .title p:last-child {
+  font-family: 'futuramediumc';
+  font-size: 2.125em;
+  line-height: 46px;
+  color: #000;
+}
+
+.header .callback .title {
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-bottom: 1px solid #CFD0D0;
+  font-weight: bold;
+}
+
+.header .callback form {
+  padding: 40px;
+}
+
+.header .callback form input {
+  height: 35px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 5px 15px;
+  border: 0;
+}
+
+.header .callback form input::placeholder {
+  font-family: 'garamond';
+  color: #ABABAB;
+  font-size: 1.375em;
+  line-height: 31px;
+}
+
+.header .callback form button {
+  height: 35px;
+  width: 150px;
+  border-radius: 30px;
+  border: 0;
+  margin-top: 1rem;
+  background-color: #f2bb2b;
+  font-family: 'futuramediumc';
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.c-f2 {
+  color: #f2bb2b;
+}
+
+.header .garant p {
+  font-size: 3.5em;
+  font-family: 'futurademic'
+}
+
+.header .more a {
+  text-decoration: none;
+  font-size: 1.75em;
+  font-style: 'futuramediumc';
+  color: #fff;
+}
+
+.header .more a:hover {
+  animation-name: more;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes more {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  25% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  75% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+
+.block1 .title p:first-child {
+  color: #f2bb2b;
+  font-size: 5.625em;
+  font-family: 'futurademic';
+}
+
+.block1 img{
+  width: 100%;
+}
+.block1 {
+  margin: 60px 0 !important;
+}
+.block1 .title p:last-child {
+  color: #000;
+  font-size: 3.125em;
+  font-family: 'garamond';
+  font-weight: bold;
+}
+
+.block1 .description {
+  font-size: 2.125em;
+  color: #242424;
+  line-height: 45px;
+  font-family: 'garamond';
+}
+
+.block1 .description li {
+  color: #f2bb2b;
+}
+
+.block1 .description li span {
+  color: #242424;
+}
+
+.block2 {
+  background-image: url('../img/block2/bg.png');
+  background-size: cover;
+  height: 100%;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.block2 p:first-child {
+  font-size: 4.125em;
+  color: #f2bb2b;
+  font-family: 'futuramediumc';
+}
+
+.block2 p:nth-child(2) {
+  font-size: 2.250em;
+  color: #fff;
+  font-family: 'garamond';
+  padding-bottom: 30px;
+}
+
+.block2 a {
+  padding: 5px 30px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #f2bb2b;
+  font-family: 'garamond';
+  font-size: 1.625em;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.block3 {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.block3 .title p {
+  font-family: 'futurademic';
+  font-size: 5.625em;
+  color: #f2bb2b;
+  padding-bottom: 30px !important;
+}
+
+.block3 .item p {
+  font-size: 2.250em;
+  font-family: 'garamond';
+}
+
+.block3 .item img {
+  height: 100px;
+}
+
+.block4 {
+  background-image: url('../img/block4/bg.png');
+  background-size: cover;
+  height: 100%;
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+}
+
+.block4 p {
+  font-size: 4.125em;
+  color: #f2bb2b;
+  font-family: 'futuramediumc';
+}
+
+.block4 .button {
+  padding-top: 20px !important;
+}
+
+.block4 button {
+  padding: 0 30px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #f2bb2b;
+  font-family: 'garamond';
+  font-size: 1.625em;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+}
+
+.block4 form input {
+  margin: 10px 0;
+  height: 35px;
+  width: auto;
+  border-radius: 30px;
+  padding: 5px 15px;
+  border: 0;
+}
+
+.block4 form input::placeholder {
+  font-family: 'garamond';
+  color: #ABABAB;
+  font-size: 1.375em;
+  line-height: 31px;
+}
+
+.block5 {
+  padding-top: 60px !important;
+  padding-bottom: 60px !important;
+  position: relative;
+}
+
+.block5 p {
+  font-size: 4.125em;
+  color: #f2bb2b;
+  font-family: 'futuramediumc';
+}
+
+.block5 .name {
+  font-size: 2em;
+  font-family: 'futurademic';
+  color: #000;
+  padding: 0 10px;
+}
+
+.block5 .comment {
+  font-size: 1.750em;
+  color: #000;
+  font-family: 'garamond';
+  padding: 0 10px;
+}
+
+.block5 .carousel {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin: 1rem 0;
+}
+
+ .block5 .carousel-control-prev {
+  position: absolute;
+  left: -12%;
+}
+
+.block5 .carousel-control-next {
+  position: absolute;
+  right: -12%;
+}
+
+.block5 .carousel-item {
+  padding: 80px 0 !important;
+}
+
+.footer {
+  background-color: #f2bb2b;
+}
+
+.footer p {
+  font-size: 1.750em;
+  font-family: 'garamond';
+}
+
+.footer .info {
+  background-color: #1e1e1e;
+  color: #fff;
+  font-size: 1.625em;
+  padding-top: 30px;
+}
+
+.footer .info p{
+  font-size: 0.8em;
+}
+main .thanks {
+  background-color: rgba(0, 0, 0, 0.555);
+  border-radius: 1rem;
+  color: #fff;
+  padding: 1rem;
+}
+.btn-custom {
+  padding: 5px 30px;
+  border-radius: 30px;
+  border: 0;
+  background-color: #f2bb2b;
+  font-family: 'garamond';
+  font-size: 1.625em;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
